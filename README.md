@@ -69,12 +69,12 @@
 
 ![](图片/切换背景.png)
 
-   
-1. 指标重要性
+
+5. 其他数据可视化
+
+指标重要性:
    
 ![](图片/指标重要性.png)
-
-6. 其他数据可视化
 
 决策树可视化：
 
@@ -160,9 +160,9 @@ $$
 TypeScore_i = \sum_{j=1}^{n_i} \left(\ln\frac{T_j}{T_{min}}\right) / \left(\ln\frac{T_{max}}{T_{min}}\right)
 $$
 
-其中$T_j=\sum_{k=1}^{n_j} Box_{jk}$, $T_{max} = \max\{T_1,T_2,\cdots,T_9\}$, $T_{min} = \min\{T_1,\cdots,T_9\}$。
+其中 $T_j=\sum_{k=1}^{n_j} Box_{jk}$, $T_{max} = \max\{T_1,T_2,\cdots,T_9\}$, $T_{min} = \min\{T_1,\cdots,T_9\}$。
 
-$TypeScore_i$表示i电影的类型得分，$n_i$代表$i$电影具有的类型数量。$T_j$代表$j$类型的总价值，$n_j$代表$j$类型的电影数目，$Box_{jk}$代表j类型电影$k$的票房。$T_{max}$和$T_{min}$分别为所有类型中类型价值的最高者和最低者。
+$TypeScore_i$表示i电影的类型得分，$n_i$ 代表 $i$ 电影具有的类型数量。$T_j$ 代表 $j$ 类型的总价值，$n_j$ 代表 $j$ 类型的电影数目，$Box_{jk}$ 代表 $j$ 类型电影 $k$ 的票房。$T_{max}$ 和 $T_{min}$ 分别为所有类型中类型价值的最高者和最低者。
 
 4. 模型建立
 
